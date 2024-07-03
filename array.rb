@@ -1,6 +1,6 @@
 class Fruite
   def Upcase(array)
-      array.map{|i| puts i.upcase}
+    array.map{|i| putsi.upcase}
   end
 end
 
