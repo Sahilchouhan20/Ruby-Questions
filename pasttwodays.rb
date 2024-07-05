@@ -4,13 +4,13 @@ require 'date'
 
 class Day
   def days(date)
-    @day1 = date - 1
-    @day2 = date - 2
+    @day1 = date
+    @day2 = date
 
     puts @day1 + "  " + @day2
   end
 end
 
-date=Date.new(2024,06,05)
+date=Date.new
 oD = Day.new
 oD.days(date)
